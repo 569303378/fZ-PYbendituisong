@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A3B6A61D503B6A00A68D05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3B6A51D503B6A00A68D05 /* main.m */; };
+		18A3B6A91D503B6A00A68D05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3B6A81D503B6A00A68D05 /* AppDelegate.m */; };
+		18A3B6AC1D503B6A00A68D05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3B6AB1D503B6A00A68D05 /* ViewController.m */; };
+		18A3B6AF1D503B6A00A68D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A3B6AD1D503B6A00A68D05 /* Main.storyboard */; };
+		18A3B6B11D503B6A00A68D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A3B6B01D503B6A00A68D05 /* Assets.xcassets */; };
+		18A3B6B41D503B6A00A68D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A3B6B21D503B6A00A68D05 /* LaunchScreen.storyboard */; };
+		18A3B6BF1D503B6A00A68D05 /* PYbendituisongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3B6BE1D503B6A00A68D05 /* PYbendituisongTests.m */; };
+		18A3B6CA1D503B6A00A68D05 /* PYbendituisongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3B6C91D503B6A00A68D05 /* PYbendituisongUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A3B6BB1D503B6A00A68D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A3B6991D503B6A00A68D05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A3B6A01D503B6A00A68D05;
+			remoteInfo = PYbendituisong;
+		};
+		18A3B6C61D503B6A00A68D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A3B6991D503B6A00A68D05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A3B6A01D503B6A00A68D05;
+			remoteInfo = PYbendituisong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A3B6A11D503B6A00A68D05 /* PYbendituisong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYbendituisong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3B6A51D503B6A00A68D05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A3B6A71D503B6A00A68D05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A3B6A81D503B6A00A68D05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A3B6AA1D503B6A00A68D05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A3B6AB1D503B6A00A68D05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A3B6AE1D503B6A00A68D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A3B6B01D503B6A00A68D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A3B6B31D503B6A00A68D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A3B6B51D503B6A00A68D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A3B6BA1D503B6A00A68D05 /* PYbendituisongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYbendituisongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3B6BE1D503B6A00A68D05 /* PYbendituisongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYbendituisongTests.m; sourceTree = "<group>"; };
+		18A3B6C01D503B6A00A68D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A3B6C51D503B6A00A68D05 /* PYbendituisongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYbendituisongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3B6C91D503B6A00A68D05 /* PYbendituisongUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYbendituisongUITests.m; sourceTree = "<group>"; };
+		18A3B6CB1D503B6A00A68D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A3B69E1D503B6A00A68D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3B6B71D503B6A00A68D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3B6C21D503B6A00A68D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A3B6981D503B6A00A68D05 = {
+			isa = PBXGroup;
+			children = (
+				18A3B6A31D503B6A00A68D05 /* PYbendituisong */,
+				18A3B6BD1D503B6A00A68D05 /* PYbendituisongTests */,
+				18A3B6C81D503B6A00A68D05 /* PYbendituisongUITests */,
+				18A3B6A21D503B6A00A68D05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A3B6A21D503B6A00A68D05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A3B6A11D503B6A00A68D05 /* PYbendituisong.app */,
+				18A3B6BA1D503B6A00A68D05 /* PYbendituisongTests.xctest */,
+				18A3B6C51D503B6A00A68D05 /* PYbendituisongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A3B6A31D503B6A00A68D05 /* PYbendituisong */ = {
+			isa = PBXGroup;
+			children = (
+				18A3B6A71D503B6A00A68D05 /* AppDelegate.h */,
+				18A3B6A81D503B6A00A68D05 /* AppDelegate.m */,
+				18A3B6AA1D503B6A00A68D05 /* ViewController.h */,
+				18A3B6AB1D503B6A00A68D05 /* ViewController.m */,
+				18A3B6AD1D503B6A00A68D05 /* Main.storyboard */,
+				18A3B6B01D503B6A00A68D05 /* Assets.xcassets */,
+				18A3B6B21D503B6A00A68D05 /* LaunchScreen.storyboard */,
+				18A3B6B51D503B6A00A68D05 /* Info.plist */,
+				18A3B6A41D503B6A00A68D05 /* Supporting Files */,
+			);
+			path = PYbendituisong;
+			sourceTree = "<group>";
+		};
+		18A3B6A41D503B6A00A68D05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A3B6A51D503B6A00A68D05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A3B6BD1D503B6A00A68D05 /* PYbendituisongTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A3B6BE1D503B6A00A68D05 /* PYbendituisongTests.m */,
+				18A3B6C01D503B6A00A68D05 /* Info.plist */,
+			);
+			path = PYbendituisongTests;
+			sourceTree = "<group>";
+		};
+		18A3B6C81D503B6A00A68D05 /* PYbendituisongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A3B6C91D503B6A00A68D05 /* PYbendituisongUITests.m */,
+				18A3B6CB1D503B6A00A68D05 /* Info.plist */,
+			);
+			path = PYbendituisongUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A3B6A01D503B6A00A68D05 /* PYbendituisong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3B6CE1D503B6A00A68D05 /* Build configuration list for PBXNativeTarget "PYbendituisong" */;
+			buildPhases = (
+				18A3B69D1D503B6A00A68D05 /* Sources */,
+				18A3B69E1D503B6A00A68D05 /* Frameworks */,
+				18A3B69F1D503B6A00A68D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYbendituisong;
+			productName = PYbendituisong;
+			productReference = 18A3B6A11D503B6A00A68D05 /* PYbendituisong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A3B6B91D503B6A00A68D05 /* PYbendituisongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3B6D11D503B6A00A68D05 /* Build configuration list for PBXNativeTarget "PYbendituisongTests" */;
+			buildPhases = (
+				18A3B6B61D503B6A00A68D05 /* Sources */,
+				18A3B6B71D503B6A00A68D05 /* Frameworks */,
+				18A3B6B81D503B6A00A68D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A3B6BC1D503B6A00A68D05 /* PBXTargetDependency */,
+			);
+			name = PYbendituisongTests;
+			productName = PYbendituisongTests;
+			productReference = 18A3B6BA1D503B6A00A68D05 /* PYbendituisongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A3B6C41D503B6A00A68D05 /* PYbendituisongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3B6D41D503B6A00A68D05 /* Build configuration list for PBXNativeTarget "PYbendituisongUITests" */;
+			buildPhases = (
+				18A3B6C11D503B6A00A68D05 /* Sources */,
+				18A3B6C21D503B6A00A68D05 /* Frameworks */,
+				18A3B6C31D503B6A00A68D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A3B6C71D503B6A00A68D05 /* PBXTargetDependency */,
+			);
+			name = PYbendituisongUITests;
+			productName = PYbendituisongUITests;
+			productReference = 18A3B6C51D503B6A00A68D05 /* PYbendituisongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A3B6991D503B6A00A68D05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18A3B6A01D503B6A00A68D05 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+					};
+					18A3B6B91D503B6A00A68D05 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 18A3B6A01D503B6A00A68D05;
+					};
+					18A3B6C41D503B6A00A68D05 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 18A3B6A01D503B6A00A68D05;
+					};
+				};
+			};
+			buildConfigurationList = 18A3B69C1D503B6A00A68D05 /* Build configuration list for PBXProject "PYbendituisong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A3B6981D503B6A00A68D05;
+			productRefGroup = 18A3B6A21D503B6A00A68D05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A3B6A01D503B6A00A68D05 /* PYbendituisong */,
+				18A3B6B91D503B6A00A68D05 /* PYbendituisongTests */,
+				18A3B6C41D503B6A00A68D05 /* PYbendituisongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A3B69F1D503B6A00A68D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3B6B41D503B6A00A68D05 /* LaunchScreen.storyboard in Resources */,
+				18A3B6B11D503B6A00A68D05 /* Assets.xcassets in Resources */,
+				18A3B6AF1D503B6A00A68D05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3B6B81D503B6A00A68D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3B6C31D503B6A00A68D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A3B69D1D503B6A00A68D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3B6AC1D503B6A00A68D05 /* ViewController.m in Sources */,
+				18A3B6A91D503B6A00A68D05 /* AppDelegate.m in Sources */,
+				18A3B6A61D503B6A00A68D05 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3B6B61D503B6A00A68D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3B6BF1D503B6A00A68D05 /* PYbendituisongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3B6C11D503B6A00A68D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3B6CA1D503B6A00A68D05 /* PYbendituisongUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A3B6BC1D503B6A00A68D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A3B6A01D503B6A00A68D05 /* PYbendituisong */;
+			targetProxy = 18A3B6BB1D503B6A00A68D05 /* PBXContainerItemProxy */;
+		};
+		18A3B6C71D503B6A00A68D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A3B6A01D503B6A00A68D05 /* PYbendituisong */;
+			targetProxy = 18A3B6C61D503B6A00A68D05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A3B6AD1D503B6A00A68D05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A3B6AE1D503B6A00A68D05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A3B6B21D503B6A00A68D05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A3B6B31D503B6A00A68D05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A3B6CC1D503B6A00A68D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A3B6CD1D503B6A00A68D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A3B6CF1D503B6A00A68D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYbendituisong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYbendituisong";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A3B6D01D503B6A00A68D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYbendituisong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYbendituisong";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A3B6D21D503B6A00A68D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYbendituisongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYbendituisongTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYbendituisong.app/PYbendituisong";
+			};
+			name = Debug;
+		};
+		18A3B6D31D503B6A00A68D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYbendituisongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYbendituisongTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYbendituisong.app/PYbendituisong";
+			};
+			name = Release;
+		};
+		18A3B6D51D503B6A00A68D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PYbendituisongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYbendituisongUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYbendituisong;
+			};
+			name = Debug;
+		};
+		18A3B6D61D503B6A00A68D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PYbendituisongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYbendituisongUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYbendituisong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A3B69C1D503B6A00A68D05 /* Build configuration list for PBXProject "PYbendituisong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3B6CC1D503B6A00A68D05 /* Debug */,
+				18A3B6CD1D503B6A00A68D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A3B6CE1D503B6A00A68D05 /* Build configuration list for PBXNativeTarget "PYbendituisong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3B6CF1D503B6A00A68D05 /* Debug */,
+				18A3B6D01D503B6A00A68D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A3B6D11D503B6A00A68D05 /* Build configuration list for PBXNativeTarget "PYbendituisongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3B6D21D503B6A00A68D05 /* Debug */,
+				18A3B6D31D503B6A00A68D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A3B6D41D503B6A00A68D05 /* Build configuration list for PBXNativeTarget "PYbendituisongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3B6D51D503B6A00A68D05 /* Debug */,
+				18A3B6D61D503B6A00A68D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A3B6991D503B6A00A68D05 /* Project object */;
+}
